@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50E9B56203DC3DD00A52061 /* prehistoric.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F50E9B55203DC3DD00A52061 /* prehistoric.ttf */; };
 		F5A10FAC2034997200CFA307 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10FAB2034997200CFA307 /* AppDelegate.swift */; };
 		F5A10FAE2034997200CFA307 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10FAD2034997200CFA307 /* ViewController.swift */; };
 		F5A10FB12034997200CFA307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A10FAF2034997200CFA307 /* Main.storyboard */; };
 		F5A10FB32034997200CFA307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A10FB22034997200CFA307 /* Assets.xcassets */; };
 		F5A10FB62034997200CFA307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A10FB42034997200CFA307 /* LaunchScreen.storyboard */; };
-		F5A10FC12034997200CFA307 /* colouredWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10FC02034997200CFA307 /* colouredWordTests.swift */; };
-		F5A10FCC2034997200CFA307 /* colouredWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A10FCB2034997200CFA307 /* colouredWordUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50E9B55203DC3DD00A52061 /* prehistoric.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = prehistoric.ttf; sourceTree = "<group>"; };
 		F5A10FA82034997200CFA307 /* colouredWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colouredWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A10FAB2034997200CFA307 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5A10FAD2034997200CFA307 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +42,7 @@
 		F5A10FB52034997200CFA307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5A10FB72034997200CFA307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A10FBC2034997200CFA307 /* colouredWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colouredWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5A10FC02034997200CFA307 /* colouredWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colouredWordTests.swift; sourceTree = "<group>"; };
-		F5A10FC22034997200CFA307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5A10FC72034997200CFA307 /* colouredWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colouredWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5A10FCB2034997200CFA307 /* colouredWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colouredWordUITests.swift; sourceTree = "<group>"; };
-		F5A10FCD2034997200CFA307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				F5A10FAA2034997200CFA307 /* colouredWord */,
-				F5A10FBF2034997200CFA307 /* colouredWordTests */,
-				F5A10FCA2034997200CFA307 /* colouredWordUITests */,
 				F5A10FA92034997200CFA307 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +91,7 @@
 		F5A10FAA2034997200CFA307 /* colouredWord */ = {
 			isa = PBXGroup;
 			children = (
+				F50E9B55203DC3DD00A52061 /* prehistoric.ttf */,
 				F5A10FAB2034997200CFA307 /* AppDelegate.swift */,
 				F5A10FAD2034997200CFA307 /* ViewController.swift */,
 				F5A10FAF2034997200CFA307 /* Main.storyboard */,
@@ -105,24 +100,6 @@
 				F5A10FB72034997200CFA307 /* Info.plist */,
 			);
 			path = colouredWord;
-			sourceTree = "<group>";
-		};
-		F5A10FBF2034997200CFA307 /* colouredWordTests */ = {
-			isa = PBXGroup;
-			children = (
-				F5A10FC02034997200CFA307 /* colouredWordTests.swift */,
-				F5A10FC22034997200CFA307 /* Info.plist */,
-			);
-			path = colouredWordTests;
-			sourceTree = "<group>";
-		};
-		F5A10FCA2034997200CFA307 /* colouredWordUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F5A10FCB2034997200CFA307 /* colouredWordUITests.swift */,
-				F5A10FCD2034997200CFA307 /* Info.plist */,
-			);
-			path = colouredWordUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +212,7 @@
 				F5A10FB62034997200CFA307 /* LaunchScreen.storyboard in Resources */,
 				F5A10FB32034997200CFA307 /* Assets.xcassets in Resources */,
 				F5A10FB12034997200CFA307 /* Main.storyboard in Resources */,
+				F50E9B56203DC3DD00A52061 /* prehistoric.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A10FC12034997200CFA307 /* colouredWordTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A10FCC2034997200CFA307 /* colouredWordUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
